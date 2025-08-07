@@ -1,0 +1,1262 @@
+[
+    {
+        "number": "1",
+        "text": "Qual linguagem de programação é destacada no texto como uma escolha popular para acesso e análise de dados?",
+        "correct_answer": "A resposta correta é: Python"
+    },
+    {
+        "number": "2",
+        "text": "Qual é a principal função dos SGBDs no contexto empresarial?",
+        "correct_answer": "A resposta correta é: Administração de Dados Corporativos"
+    },
+    {
+        "number": "3",
+        "text": "Qual é o objetivo da Modelagem de Dados?",
+        "correct_answer": "A resposta correta é: Garantir a consistência, integridade e eficiência no armazenamento e recuperação de informações"
+    },
+    {
+        "number": "4",
+        "text": "Como são representadas as entidades em um diagrama ER?",
+        "correct_answer": "A resposta correta é: Retângulos"
+    },
+    {
+        "number": "5",
+        "text": "Na operação de Seleção (σ) da Álgebra Relacional, o que é selecionado?",
+        "correct_answer": "A resposta correta é: Tuplas (linhas) que satisfaçam determinadas condições"
+    },
+    {
+        "number": "6",
+        "text": "A chave estrangeira em uma tabela refere-se a qual parte de outra tabela?",
+        "correct_answer": "A resposta correta é: Chave primária de outra tabela"
+    },
+    {
+        "number": "7",
+        "text": "Django é um framework que auxilia na criação de aplicações de qual tipo?",
+        "correct_answer": "A resposta correta é: WEB"
+    },
+    {
+        "number": "8",
+        "text": "Qual é a função do comando WHERE em SQL?",
+        "correct_answer": "A resposta correta é: Filtrar os resultados de uma consulta"
+    },
+    {
+        "number": "9",
+        "text": "Qual é o propósito de usar o comando JOIN em SQL?",
+        "correct_answer": "A resposta correta é: Combinar linhas de duas ou mais tabelas"
+    },
+    {
+        "number": "10",
+        "text": "Qual biblioteca Python permite mapear objetos Python diretamente para tabelas de banco de dados?",
+        "correct_answer": "A resposta correta é: SQLAlchemy"
+    },
+    {
+        "number": "11",
+        "text": "Qual dos seguintes é um exemplo de Sistema Gerenciador de Banco de Dados (SGBD) mencionado no texto?",
+        "correct_answer": "A resposta correta é: MySQL"
+    },
+    {
+        "number": "12",
+        "text": "O que diferencia dados de informações?",
+        "correct_answer": "A resposta correta é: Dados são sem contexto, informações possuem contexto e utilidade"
+    },
+    {
+        "number": "13",
+        "text": "O que é o Modelo Entidade-Relacionamento (ER)?",
+        "correct_answer": "A resposta correta é: Uma representação visual que permite descrever a estrutura dos dados, e suas relações, de um sistema."
+    },
+    {
+        "number": "14",
+        "text": "Qual destas não é uma vantagem dos SGBDs mencionada no texto?",
+        "correct_answer": "A resposta correta é: Facilidade de integração com outras ferramentas"
+    },
+    {
+        "number": "15",
+        "text": "Qual comando SQL cria uma tabela \"Clientes\" com um campo \"Email\" que deve ser único?",
+        "correct_answer": "A resposta correta é: CREATE TABLE Clientes ( ID INT PRIMARY KEY, Nome VARCHAR(50), Email VARCHAR(100) UNIQUE );'"
+    },
+    {
+        "number": "16",
+        "text": "Como os relacionamentos definidos no modelo lógico são representados no modelo físico?",
+        "correct_answer": "A resposta correta é: Como chaves estrangeiras no banco de dados físico."
+    },
+    {
+        "number": "17",
+        "text": "Qual é o propósito da cláusula \"WHERE\" em uma instrução SQL?",
+        "correct_answer": "A resposta correta é: Aplicar filtros aos resultados da instrução SELECT."
+    },
+    {
+        "number": "18",
+        "text": "O que o comando \"DROP DATABASE\" faz?",
+        "correct_answer": "A resposta correta é: Exclui permanentemente um banco de dados."
+    },
+    {
+        "number": "19",
+        "text": "Dado um banco de dados que possui uma tabela 'Funcionarios' com as colunas 'ID', 'Nome', 'Salario' e 'Departamento', qual das seguintes consultas SQL retornará o nome e o salário dos três funcionários mais bem pagos?",
+        "correct_answer": "A resposta correta é: SELECT Nome, Salario FROM Funcionarios ORDER BY Salario DESC LIMIT 3;'"
+    },
+    {
+        "number": "20",
+        "text": "Se você quiser encontrar todos os pares de clientes que compraram os mesmos produtos (sem considerar a quantidade), qual das seguintes opções representa uma consulta que poderia realizar essa tarefa?",
+        "correct_answer": "A resposta correta é: SELECT A.ID_Cliente AS Cliente1, B.ID_Cliente AS Cliente2, A.ID_Produto FROM Compras A JOIN Compras B ON A.ID_Produto = B.ID_Produto WHERE A.ID_Cliente < B.ID_Cliente;'"
+    },
+    {
+        "number": "21",
+        "text": "Em que década a SQL foi concebida?",
+        "correct_answer": "A resposta correta é: 1970"
+    },
+    {
+        "number": "22",
+        "text": "Qual das seguintes opções é uma característica de SQL ser uma linguagem declarativa?",
+        "correct_answer": "A resposta correta é: Os usuários declaram o que desejam fazer com os dados."
+    },
+    {
+        "number": "23",
+        "text": "Qual é o comando SQL utilizado para criar um novo banco de dados?",
+        "correct_answer": "A resposta correta é: CREATE DATABASE"
+    },
+    {
+        "number": "24",
+        "text": "Qual é o propósito principal da linguagem SQL?",
+        "correct_answer": "A resposta correta é: Interagir com bancos de dados"
+    },
+    {
+        "number": "25",
+        "text": "Qual é o comando python utilizado para instalar bibliotecas?",
+        "correct_answer": "A resposta correta é: PIP"
+    },
+    {
+        "number": "26",
+        "text": "Qual dos itens a seguir não é um SGBD Relacional suportado pelo Python?",
+        "correct_answer": "A resposta correta é: MongoDB"
+    },
+    {
+        "number": "27",
+        "text": "Qual IP podemos usar para configurar uma conexão de banco de dados localizada na mesma máquina de desenvolvimento?",
+        "correct_answer": "A resposta correta é: 127.0.0.1"
+    },
+    {
+        "number": "28",
+        "text": "A biblioteca SQLAlchemy e o PyMySQL são diferentes de que forma?",
+        "correct_answer": "A resposta correta é: O PyMySQL trabalha com a persistencia diretamente, enquanto o SQLAlchemy trabalha com persistencia através de objetos"
+    },
+    {
+        "number": "29",
+        "text": "Qual é a vantagem em se usar uma biblioteca de persistencia orientada a objetos?",
+        "correct_answer": "A resposta correta é: Facilidade de mapeamento entre objetos e tabelas de banco de dados."
+    },
+    {
+        "number": "30",
+        "text": "Em relação à biblioteca PyMySQL em Python, qual das seguintes afirmações é correta?",
+        "correct_answer": "A resposta correta é: PyMySQL é uma biblioteca que possibilita a interação direta com bancos de dados MySQL."
+    },
+    {
+        "number": "31",
+        "text": "Considerando a biblioteca mysql-connector-python, qual é a função do método cursor() em uma conexão com um banco de dados MySQL?",
+        "correct_answer": "A resposta correta é: Este método retorna um objeto de cursor que permite executar comandos SQL e obter resultados."
+    },
+    {
+        "number": "32",
+        "text": "Qual desafio pode ser encontrado ao implementar SGBDs?",
+        "correct_answer": "A resposta correta é: Complexidade de Implementação e Administração"
+    },
+    {
+        "number": "33",
+        "text": "De que forma os números desconexos, como 25, 37, 18, 42, podem se transformar em informações relevantes?",
+        "correct_answer": "A resposta correta é: Por exemplo, associando-os a idades de pessoas em uma pesquisa"
+    },
+    {
+        "number": "34",
+        "text": "Qual é o principal objetivo do modelo conceitual no desenvolvimento de bancos de dados?",
+        "correct_answer": "A resposta correta é: Capturar os requisitos essenciais de dados e definir a estrutura lógica do sistema."
+    },
+    {
+        "number": "35",
+        "text": "Como são representados os atributos compostos em um diagrama ER?",
+        "correct_answer": "A resposta correta é: Uma elipse contendo os subatributos."
+    },
+    {
+        "number": "36",
+        "text": "Como são representados os relacionamentos no modelo ER?",
+        "correct_answer": "A resposta correta é: Por meio de losangos."
+    },
+    {
+        "number": "37",
+        "text": "Qual dos seguintes NÃO é um tipo de cardinalidade em um modelo ER?",
+        "correct_answer": "A resposta correta é: Cardinalidade 2:2"
+    },
+    {
+        "number": "38",
+        "text": "No Modelo ER Estendido, o que é agregação?",
+        "correct_answer": "A resposta correta é: A combinação de entidades relacionadas em uma entidade agregada de nível superior."
+    },
+    {
+        "number": "39",
+        "text": "O que significa a cardinalidade 1:N em um modelo ER?",
+        "correct_answer": "A resposta correta é: Uma instância de uma entidade está relacionada a uma ou mais instâncias da outra entidade."
+    },
+    {
+        "number": "40",
+        "text": "O que o modelo lógico de um banco de dados descreve?",
+        "correct_answer": "A resposta correta é: Ele representa diagramaticamente restrições de dados, nomes de entidades e relacionamentos para implementação de forma independente da plataforma"
+    },
+    {
+        "number": "41",
+        "text": "Quem introduziu o modelo relacional em 1970?",
+        "correct_answer": "A resposta correta é: Ted Codd"
+    },
+    {
+        "number": "42",
+        "text": "O que é uma chave primária em um banco de dados relacional?",
+        "correct_answer": "A resposta correta é: Um conjunto de atributos que identifica de forma única cada tupla em uma relação e garante que não haja duplicação de registros."
+    },
+    {
+        "number": "43",
+        "text": "Avalie as seguintes asserções e a relação proposta entre elas.\n \n I. \"Os SGBDs são softwares projetados apenas para armazenar dados em grandes volumes.\"\n PORQUE\n II. \"Os SGBDs são softwares projetados para facilitar a criação, manipulação e administração de bancos de dados, garantindo a integridade, consistência e segurança dos dados armazenados.\"",
+        "correct_answer": "A resposta correta é: A primeira afirmativa é falsa e a segunda é verdadeira."
+    },
+    {
+        "number": "44",
+        "text": "O que é uma chave estrangeira em um banco de dados relacional?",
+        "correct_answer": "A resposta correta é: Um atributo ou conjunto de atributos em uma tabela que se refere à chave primária de outra tabela."
+    },
+    {
+        "number": "45",
+        "text": "O que a Restrição de Integridade de Domínio define?",
+        "correct_answer": "A resposta correta é: Os valores permitidos para um atributo com base no seu domínio."
+    },
+    {
+        "number": "46",
+        "text": "No processo de mapeamento do Modelo Entidade-Relacionamento (ER) para o modelo relacional, qual etapa envolve a criação de uma tabela para cada entidade E no modelo ER?",
+        "correct_answer": "A resposta correta é: Etapa 1"
+    },
+    {
+        "number": "47",
+        "text": "Qual é o objetivo da Restrição de Integridade de Valor Padrão?",
+        "correct_answer": "A resposta correta é: Define um valor padrão para um atributo caso nenhum valor seja especificado."
+    },
+    {
+        "number": "48",
+        "text": "O que é o Modelo Físico em um sistema de banco de dados?",
+        "correct_answer": "A resposta correta é: É a etapa onde os conceitos do modelo lógico de dados são traduzidos em estruturas tangíveis que permitem o armazenamento, gerenciamento e recuperação eficaz de dados."
+    },
+    {
+        "number": "49",
+        "text": "Qual é o objetivo da integração entre o modelo físico e o modelo lógico?",
+        "correct_answer": "A resposta correta é: Assegurar que a estrutura física do banco de dados represente de maneira precisa a estrutura conceitual delineada no Modelo Lógico."
+    },
+    {
+        "number": "50",
+        "text": "Como cada entidade definida no Modelo Lógico é mapeada no banco de dados físico?",
+        "correct_answer": "A resposta correta é: Para uma tabela no banco de dados físico."
+    },
+    {
+        "number": "51",
+        "text": "Qual é a finalidade dos índices em um banco de dados físico?",
+        "correct_answer": "A resposta correta é: Acelerar a recuperação de dados."
+    },
+    {
+        "number": "52",
+        "text": "Qual é o propósito da otimização no contexto do modelo físico de um banco de dados?",
+        "correct_answer": "A resposta correta é: Melhorar o desempenho do banco de dados."
+    },
+    {
+        "number": "1",
+        "text": "Complete as lacunas no contexto do texto sobre Processamento e Análise de Dados. 1. A análise exploratória de dados é uma fase inicial da análise, na qual os dados são investigados em busca de padrões, tendências e insights ________________. Gráficos, estatísticas descritivas e outras técnicas podem ser usados para entender melhor os dados. 2. O processamento em tempo real é necessário para tomar decisões imediatas com base em dados em constante ________________. Para isso, são utilizadas tecnologias como Apache Flink, Spark Streaming e outras ferramentas de processamento em tempo real. 3. Além da análise exploratória, várias técnicas de análise mais ________________ podem ser aplicadas, dependendo dos objetivos específicos da organização. Isso inclui análise de regressão, aprendizado de máquina, análise de redes, mineração de texto, entre outras. 4. A ingestão de dados é a etapa inicial do processo, em que os dados são coletados e armazenados em um sistema de gerenciamento, como o Hadoop Distributed File System (HDFS) ou bancos de dados ________________. Ferramentas como o Apache Kafka são frequentemente utilizadas para a ingestão de dados em tempo real. 5. O ________________ é uma abordagem comum para lidar com o Big Data devido ao tamanho exorbitante dos conjuntos de dados. Tecnologias como Apache Hadoop e Apache Spark permitem dividir tarefas complexas em tarefas menores e executá-las em paralelo em diversos nós de um cluster, garantindo velocidade e eficiência no processamento.",
+        "correct_answer": "A resposta correta é: (1) iniciais, (2) Processamento Distribuído, (3) avançadas, (4) distribuída, (5) processamento"
+    },
+    {
+        "number": "2",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico sobre Clusterização. 1. ( ) A clusterização é uma técnica que não tem utilidade em projetos de Big Data devido ao volume de dados ser sempre pequeno. 2. ( ) O K-means é um algoritmo de clusterização que não pode ser executado de forma paralela. 3. ( ) A aprendizagem de máquina distribuída não oferece suporte a técnicas de clusterização, limitando suas aplicações em Big Data. 4. ( ) Algoritmos baseados em grafos, como o algoritmo de propagação de afinidade, podem ser aplicados de forma distribuída usando o Apache Spark GraphX. 5. ( ) A clusterização é útil principalmente para casos de uso que envolvem análise de fluxos de dados em tempo real.",
+        "correct_answer": "A resposta correta é: F F F V F"
+    },
+    {
+        "number": "3",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico sobre Modelagem e Gerenciamento de Dados.\n\n1. ( ) A modelagem de dados no Big Data nunca requer esquemas flexíveis, pois os dados sempre seguem uma estrutura rígida.\n2. ( ) A denormalização é aplicada para otimizar o desempenho de consultas em larga escala, evitando a necessidade de várias junções de tabelas.\n3. ( ) A modelagem de dados colunar não é adequada para sistemas de Big Data, pois não oferece vantagens em termos de compressão e consulta.\n4. ( ) Sistemas de arquivos distribuídos, como o Hadoop Distributed File System (HDFS), não são utilizados para armazenamento escalável de dados em clusters de computadores.\n5. ( ) Indexação é uma técnica irrelevante para melhorar o desempenho das consultas em grandes conjuntos de dados.",
+        "correct_answer": "A resposta correta é: F V F V F"
+    },
+    {
+        "number": "4",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico sobre Processamento de Consultas. 1. ( ) Indexação é uma técnica que não tem impacto no desempenho das consultas em grandes conjuntos de dados. 2. ( ) Otimização de consultas não envolve técnicas como particionamento de dados e execução paralela de consultas. 3. ( ) A técnica de sharding é utilizada para distribuir os dados em vários nós ou servidores, permitindo escalabilidade horizontal. 4. ( ) Replicação de dados não é relevante para garantir maior disponibilidade e tolerância a falhas em sistemas de Big Data. 5. ( ) Processamento de consultas em tempo real não é uma característica importante em projetos de Big Data.",
+        "correct_answer": "A resposta correta é: V F V V F"
+    },
+    {
+        "number": "5",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico sobre Processamento Distribuído. 1. ( ) O processamento distribuído envolve o uso de várias máquinas interconectadas para processar grandes volumes de dados de forma simultânea e coordenada. 2. ( ) Uma das vantagens do processamento distribuído é a capacidade de lidar com o aumento do volume de dados sem perder desempenho. 3. ( ) A redundância e a tolerância a falhas são desafios enfrentados pelo processamento distribuído, pois os nós não conseguem assumir responsabilidades uns dos outros. 4. ( ) A execução de tarefas de forma paralela em diversos nós não resulta em maior velocidade e desempenho, sendo desvantajosa. 5. ( ) O processamento distribuído pode economizar custos ao permitir o uso de clusters de computação mais acessíveis em vez de servidores caros.",
+        "correct_answer": "A resposta correta é: V V F F V"
+    },
+    {
+        "number": "6",
+        "text": "O componente central do Hadoop é o Hadoop Distributed File System (HDFS), um sistema de arquivos distribuído que divide os dados em blocos e os replica em vários nós para garantir a disponibilidade e a redundância dos dados. Outra parte crucial do Hadoop é o ____________, um modelo de programação para processamento paralelo e distribuído. Ele permite que os usuários definam tarefas de mapeamento e redução para processar e analisar os dados em paralelo.",
+        "correct_answer": "A resposta correta é: Spark"
+    },
+    {
+        "number": "7",
+        "text": "O Hive é amplamente utilizado em aplicações que envolvem análise de big data, processamento de logs, geração de relatórios e business intelligence. Sua linguagem de consulta SQL-like e a capacidade de trabalhar com o Hadoop tornam-no uma escolha popular para organizações que buscam extrair informações valiosas de grandes conjuntos de dados. No entanto, é importante notar que o Hive é projetado para processamento em lote, o que pode resultar em ____________ mais altas em comparação com ferramentas de processamento em tempo real, como o Apache Spark. Portanto, a escolha entre o Hive e outras ferramentas dependerá das necessidades específicas do projeto e dos requisitos de desempenho de cada caso de uso.",
+        "correct_answer": "A resposta correta é: latências"
+    },
+    {
+        "number": "8",
+        "text": "Por que o processamento em tempo real é crucial em ferramentas de Big Data?",
+        "correct_answer": "A resposta correta é: Para permitir análise de dados à medida que são gerados"
+    },
+    {
+        "number": "9",
+        "text": "Qual das seguintes afirmações sobre as metodologias utilizadas no desenvolvimento de projetos Big Data está correta, com base no texto? 1. ( ) A metodologia Agile é mais adequada para projetos de Big Data devido à sua ênfase na colaboração entre equipes de TI, análise de dados e negócios. 2. ( ) A metodologia CRISP-DM é uma abordagem centrada no ser humano, focada em compreender as necessidades dos usuários finais e criar soluções orientadas para o cliente. 3. ( ) A metodologia LEAN é aplicada em projetos de Big Data para lidar especificamente com desafios de escalabilidade, gerenciamento de dados em larga escala e processamento distribuído. 4. ( ) A metodologia CRISP-BigData é uma variação da metodologia Agile, adaptada para lidar com os requisitos complexos e em constante mudança de projetos de Big Data. 5. ( ) A metodologia Design Thinking é adequada para projetos de Big Data devido à sua ênfase na entrega contínua de incrementos funcionais e na adaptação a mudanças de requisitos.",
+        "correct_answer": "A resposta correta é: A metodologia CRISP-BigData é uma variação da CRISP-DM, adaptada especificamente para projetos de Big Data, considerando as características típicas desse contexto, como escalabilidade e processamento distribuído."
+    },
+    {
+        "number": "10",
+        "text": "Qual das seguintes características não é comum em ferramentas de Big Data?",
+        "correct_answer": "A resposta correta é: Análise Simples"
+    },
+    {
+        "number": "11",
+        "text": "Qual das seguintes características não faz parte das principais \"Vs\" do Big Data, conforme mencionado no texto?",
+        "correct_answer": "A resposta correta é: Validade"
+    },
+    {
+        "number": "12",
+        "text": "Qual dos seguintes setores utiliza o Big Data para analisar riscos de crédito, prever tendências do mercado e melhorar a eficiência na gestão de ativos?",
+        "correct_answer": "A resposta correta é: Finanças e Seguros"
+    },
+    {
+        "number": "13",
+        "text": "Qual é a característica fundamental do Apache Flink que o distingue de outras ferramentas de processamento de dados no ecossistema do Big Data?",
+        "correct_answer": "A resposta correta é: Capacidade de processamento de dados distribuídos."
+    },
+    {
+        "number": "14",
+        "text": "Qual é a função da Integração de Dados em ferramentas de Big Data?",
+        "correct_answer": "A resposta correta é: Facilitar a análise de informações de diferentes fontes"
+    },
+    {
+        "number": "15",
+        "text": "Complete as lacunas no contexto do texto sobre Processamento e Análise de Dados.\n\n1. A ingestão de dados é a etapa inicial do processo, em que os dados são coletados e armazenados em um sistema de ________________, como o Hadoop Distributed File System (HDFS) ou bancos de dados NoSQL. Ferramentas como o Apache Kafka são frequentemente utilizadas para a ingestão de dados em tempo real.\n2. O processamento em tempo real é necessário para tomar decisões imediatas com base em dados em ________________. Para isso, são utilizadas tecnologias como Apache Flink, Spark Streaming e outras ferramentas de processamento em tempo real.\n3. Além da análise exploratória, várias técnicas de análise mais ________________ podem ser aplicadas, dependendo dos objetivos específicos da organização. Isso inclui análise de regressão, aprendizado de máquina, análise de redes, mineração de\n\n texto, entre outras.\n4. A análise exploratória de dados é uma fase inicial da análise, na qual os dados são investigados em busca de padrões, tendências e insights ________________. Gráficos, estatísticas descritivas e outras técnicas podem ser usados para entender melhor os dados.\n5. O ________________ é uma abordagem comum para lidar com o Big Data devido ao tamanho exorbitante dos conjuntos de dados. Tecnologias como Apache Hadoop e Apache Spark permitem dividir tarefas complexas em tarefas menores e executá-las em paralelo em diversos nós de um cluster, garantindo velocidade e eficiência no processamento.",
+        "correct_answer": "A resposta correta é: (1) gerenciamento, (2) constante, (3) distribuída, (4) iniciais, (5) Processamento Exploratório"
+    },
+    {
+        "number": "16",
+        "text": "Qual é a principal finalidade do Elasticsearch no ecossistema de Big Data?",
+        "correct_answer": "A resposta correta é: Armazenamento e recuperação de dados não estruturados."
+    },
+    {
+        "number": "17",
+        "text": "Qual é a vantagem da aplicação da metodologia Design Thinking em projetos de Big Data, de acordo com o texto? 1. ( ) A metodologia Design Thinking permite um foco exclusivo na escalabilidade e no processamento distribuído, facilitando a adaptação a requisitos em constante mudança. 2. ( ) O Design Thinking é eficaz em projetos de Big Data devido à sua abordagem colaborativa entre equipes de TI, análise de dados e negócios. 3. ( ) A metodologia Design Thinking enfatiza a entrega contínua de incrementos funcionais, permitindo ajustes contínuos e experimentação rápida. 4. ( ) O Design Thinking é centrado no ser humano e é útil para garantir que as análises e insights obtidos estejam alinhados com as necessidades dos usuários finais. 5. ( ) A metodologia Design Thinking é apropriada para projetos de Big Data porque se concentra exclusivamente na compreensão dos dados e na preparação dos mesmos.",
+        "correct_answer": "A resposta correta é: O Design Thinking é centrado no ser humano e é útil para garantir que as análises e insights obtidos estejam alinhados com as necessidades dos usuários finais."
+    },
+    {
+        "number": "18",
+        "text": "Qual é uma das principais vantagens do Apache Kafka em relação à ingestão e processamento de dados?",
+        "correct_answer": "A resposta correta é: Lidar com grandes volumes de dados e alto throughput com baixa latência."
+    },
+    {
+        "number": "19",
+        "text": "Qual das seguintes afirmações sobre o desenvolvimento de projetos Big Data está correta, com base no texto? 1. ( ) A metodologia Agile não é adequada para projetos de Big Data, uma vez que não lida bem com a natureza complexa e em constante mudança dos dados. 2. ( ) A metodologia CRISP-DM é a única abordagem possível para projetos de Big Data, pois sua estrutura cíclica garante resultados significativos em todas as fases. 3. ( ) A metodologia LEAN é preferencialmente aplicada em projetos de Big Data devido ao seu foco na colaboração entre equipes e na iteração constante. 4. ( ) A adaptação do processo de desenvolvimento é desnecessária em projetos de Big Data, já que os requisitos são sempre estáveis e previsíveis. 5. ( ) A natureza complexa e em constante mudança dos dados em projetos Big Data requer flexibilidade e abordagens iterativas para alcançar resultados bem-sucedidos.",
+        "correct_answer": "A resposta correta é: A natureza complexa e em constante mudança dos dados em projetos Big Data requer flexibilidade e abordagens iterativas para alcançar resultados bem-sucedidos."
+    },
+    {
+        "number": "20",
+        "text": "Complete as lacunas no contexto do texto sobre Processamento e Análise de Dados.\n\n1. O ________________ é uma abordagem comum para lidar com o Big Data devido ao tamanho exorbitante dos conjuntos de dados. Tecnologias como Apache Hadoop e Apache Spark permitem dividir tarefas complexas em tarefas menores e executá-las em paralelo em diversos nós de um cluster, garantindo velocidade e eficiência no processamento.\n2. A ________________ de dados é a etapa inicial do processo, em que os dados são coletados e armazenados em um sistema de gerenciamento, como o Hadoop Distributed File System (HDFS) ou bancos de dados NoSQL. Ferramentas como o Apache Kafka são frequentemente utilizadas para a ingestão de dados em tempo real.\n3. Antes da análise propriamente dita, é comum realizar o __________________ dos dados. Nesta etapa, os dados são limpos, tratados, transformados e, se necessário, agregados para torná-los adequados para a análise.\n4. A __________________ de dados é uma fase inicial da análise, na qual os dados são investigados em busca de padrões, tendências e insights iniciais. Gráficos, estatísticas descritivas e outras técnicas podem ser usados para entender melhor os dados.\n5. Além da análise exploratória, várias técnicas de __________________ podem ser aplicadas, dependendo dos objetivos específicos da organização. Isso inclui análise de regressão, aprendizado de máquina, análise de redes, mineração de texto, entre outras.",
+        "correct_answer": "A resposta correta é: (1) Processamento Distribuído, (2) Análise Avançada, (3) Visualização de Dados, (4) Análise Exploratória, (5) Ingestão de Dados"
+    },
+    {
+        "number": "21",
+        "text": "Hadoop é uma das tecnologias mais proeminentes no ecossistema de Big Data. Desenvolvida pelo Apache Software Foundation, é uma estrutura de código aberto projetada para armazenar, processar e analisar grandes volumes de dados distribuídos em clusters de servidores. Uma das principais características do Hadoop é a sua abordagem de processamento ____________. Ele divide tarefas de processamento em várias máquinas em um cluster, o que permite escalabilidade horizontal para lidar com grandes quantidades de dados. Esse modelo distribuído também garante tolerância a falhas, pois, caso uma máquina falhe, as tarefas são realocadas para outros nós.",
+        "correct_answer": "A resposta correta é: em lote"
+    },
+    {
+        "number": "22",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico sobre Armazenamento. 1. ( ) Sistemas de Arquivos Distribuídos não são usados em projetos de Big Data, pois são ineficientes para gerenciar grandes volumes de dados. 2. ( ) Bancos de Dados NoSQL não oferecem escalabilidade e flexibilidade para armazenar dados não estruturados ou semiestruturados. 3. ( ) O armazenamento em nuvem é uma opção que não oferece flexibilidade ou escalabilidade para lidar com grandes volumes de dados. 4. ( ) Armazenamento em Memória é uma tecnologia que não contribui para o aumento do desempenho em operações de leitura e gravação. 5. ( ) A escolha da tecnologia de armazenamento é irrelevante na construção de uma arquitetura de Big Data escalável.",
+        "correct_answer": "A resposta correta é: F F F F F"
+    },
+    {
+        "number": "23",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico sobre Banco de Dados NoSQL. 1. ( ) Bancos de dados NoSQL são projetados apenas para armazenar dados estruturados em cenários de Big Data. 2. ( ) Escalabilidade horizontal é uma característica que não está presente nos bancos de dados NoSQL. 3. ( ) A replicação de dados nos bancos de dados NoSQL não contribui para maior disponibilidade e tolerância a falhas. 4. ( ) Os bancos de dados NoSQL geralmente oferecem alto desempenho apenas para operações de leitura. 5. ( ) Bancos de dados NoSQL são restritos a um único modelo de dados, não permitindo diferentes tipos de categorias.",
+        "correct_answer": "A resposta correta é: F F F F F"
+    },
+    {
+        "number": "1",
+        "text": "Qual é o principal objetivo do Business Intelligence (BI)?",
+        "correct_answer": "A resposta correta é: Coletar informações relevantes para uma organização."
+    },
+    {
+        "number": "2",
+        "text": "Qual é a importância da Governança de BI na arquitetura de Business Intelligence (BI)?",
+        "correct_answer": "A resposta correta é: Assegurar a integridade, segurança e qualidade dos dados."
+    },
+    {
+        "number": "3",
+        "text": "Qual é a principal característica da modelagem dimensional em Business Intelligence (BI)?",
+        "correct_answer": "A resposta correta é: Foca na organização dos dados em torno de dimensões e fatos."
+    },
+    {
+        "number": "4",
+        "text": "Em qual tipo de modelagem de dados em Business Intelligence (BI) os dados são organizados em tabelas bidimensionais semelhantes às encontradas em bancos de dados relacionais tradicionais?",
+        "correct_answer": "A resposta correta é: Modelagem Tabular."
+    },
+    {
+        "number": "5",
+        "text": "Qual é a principal função das tabelas de dimensões em um esquema estrela na modelagem de dados em Business Intelligence (BI)?",
+        "correct_answer": "A resposta correta é: Fornecer contexto aos dados armazenados na tabela de fatos."
+    },
+    {
+        "number": "6",
+        "text": "Sobre o processo ETL (Extração, Transformação e Carga) em Business Intelligence (BI), é correto afirmar: 1. A etapa de \"Carga\" (Load) é responsável pela extração de dados de diferentes fontes. 2. Na etapa de \"Transformação\" (Transformation), os dados são limpos e preparados para análise. 3. A etapa de \"Extração\" (Extraction) pode ser realizada apenas de forma manual. 4. O processo ETL é responsável por criar um data warehouse para armazenar os dados transformados. 5. A integração de dados de diferentes fontes é uma das principais funções do processo ETL.",
+        "correct_answer": "A resposta correta é: FVFFV"
+    },
+    {
+        "number": "7",
+        "text": "Em relação ao carregamento de dados em data warehouses no contexto do processo ETL, é correto afirmar: 1. O carregamento por lotes (Batch Load) é mais adequado para conjuntos de dados que precisam ser atualizados em tempo real. 2. O carregamento em tempo real (Real-time Load) permite que os dados sejam atualizados no data warehouse em intervalos pré-definidos. 3. O carregamento por lotes é mais eficiente para o processamento de grandes volumes de dados de uma só vez. 4. O carregamento em tempo real é mais adequado para cenários que requerem decisões rápidas com base em dados recentes. 5. As abordagens de carregamento por lotes e em tempo real são exclusivas, e não é possível utilizar ambas em um mesmo data warehouse.",
+        "correct_answer": "A resposta correta é: FFVVF"
+    },
+    {
+        "number": "8",
+        "text": "O processo ETL em Business Intelligence (BI) é fundamental para: 1. Criar painéis interativos e relatórios dinâmicos. 2. Integrar dados de diferentes fontes em um formato adequado para análise. 3. Armazenar grandes volumes de dados brutos. 4. Garantir a integridade dos dados carregados no data warehouse. 5. Realizar cálculos e agregações complexas em tempo real.",
+        "correct_answer": "A resposta correta é: FVFVF"
+    },
+    {
+        "number": "9",
+        "text": "Sobre o OLAP (Online Analytical Processing) e seu papel em ferramentas de Business Intelligence (BI), é correto afirmar: 1. OLAP permite a exploração interativa e dinâmica dos dados em cubos multidimensionais. 2. As operações OLAP incluem Drill-down, que permite navegar para um nível mais detalhado dos dados. 3. O Pivot é uma operação OLAP que realiza o oposto do Roll-up, agregando dados em níveis inferiores. 4. A tecnologia OLAP é usada em ferramentas de Business Intelligence apenas para análise de dados unidimensionais. 5. A técnica OLAP é mais adequada para análise de dados em tempo real devido à sua alta performance.",
+        "correct_answer": "A resposta correta é: VVFFF"
+    },
+    {
+        "number": "10",
+        "text": "Data Mining (mineração de dados) é uma técnica usada em Business Intelligence para: 1. Descobrir padrões e tendências em grandes volumes de dados. 2. Coletar dados de fontes diversas, como redes sociais e sites de e-commerce. 3. Realizar a etapa de limpeza de dados em um processo de análise de BI. 4. Apenas preparar os dados para visualização em dashboards e relatórios. 5. Fornecer uma visão geral do estado atual do negócio.",
+        "correct_answer": "A resposta correta é: VFFFF"
+    },
+    {
+        "number": "11",
+        "text": "Dashboards são ferramentas importantes em Business Intelligence porque: 1. Fornecem uma visão detalhada dos dados em cubos multidimensionais. 2. Possibilitam a mineração de dados e extração de informações valiosas. 3. Apresentam informações em formatos não estruturados e de difícil interpretação. 4. São painéis interativos que mostram dados de forma visual e fácil de entender. 5. Apenas são utilizados para relatar informações resumidas de alto nível.",
+        "correct_answer": "A resposta correta é: FFFVF"
+    },
+    {
+        "number": "12",
+        "text": "A Análise Descritiva é uma etapa inicial da análise de dados em BI, que consiste em ____________ e ____________ os dados para fornecer uma visão geral das informações disponíveis. Para isso, são comumente utilizados gráficos, tabelas e estatísticas descritivas, como média, mediana e desvio padrão. Essa etapa auxilia na compreensão do comportamento dos dados e na identificação de ____________.",
+        "correct_answer": "A resposta correta é: Coletar/ organizar/ padrões e tendências"
+    },
+    {
+        "number": "13",
+        "text": "A Análise de Segmentação em Business Intelligence é utilizada para dividir os dados em grupos ou segmentos com características similares. Essa análise ajuda a entender melhor as preferências e comportamentos dos diferentes grupos de clientes ou usuários, possibilitando estratégias de ____________ mais direcionadas. Com base nos resultados dessa análise, as empresas podem criar ____________ e ____________ específicas para atender às necessidades de cada grupo.",
+        "correct_answer": "A resposta correta é: vendas / campanhas de marketing / segmentações"
+    },
+    {
+        "number": "14",
+        "text": "A análise preditiva em Business Intelligence utiliza modelos estatísticos e algoritmos de aprendizado de máquina para ____________ sobre eventos futuros com base nos dados históricos. Essa análise é valiosa para auxiliar as empresas na tomada de decisões ____________, pois permite a antecipação de ____________ e comportamentos futuros, contribuindo para estratégias mais assertivas.",
+        "correct_answer": "A resposta correta é: fazer previsões / proativas / tendências"
+    },
+    {
+        "number": "15",
+        "text": "Qual é uma das práticas essenciais para alcançar uma visualização de dados eficaz em Business Intelligence (BI)?",
+        "correct_answer": "A resposta correta é: Padronização de cores e formatos em todas as visualizações."
+    },
+    {
+        "number": "16",
+        "text": "Qual dos seguintes desafios é comum em Business Intelligence?",
+        "correct_answer": "A resposta correta é: Integração de sistemas legados."
+    },
+    {
+        "number": "17",
+        "text": "Quais tipos de gráficos são ideais para comparar diferentes categorias de dados e mostrar a evolução de um indicador ao longo do tempo, respectivamente?",
+        "correct_answer": "A resposta correta é: Gráfico de Barras / Gráfico de Linhas."
+    },
+    {
+        "number": "18",
+        "text": "Quais são as vantagens da utilização de mapas em Business Intelligence (BI)?",
+        "correct_answer": "A resposta correta é: Visualização em tempo real, Análise de dados por localização ."
+    },
+    {
+        "number": "19",
+        "text": "Sobre o desenvolvimento de projetos de Business Intelligence (BI), analise as afirmações a seguir e indique se são verdadeiras (V) ou falsas (F): 1. ( ) O processo de Extração, Transformação e Carga (ETL) é responsável por garantir que os dados brutos sejam limpos e preparados para análise. 2. ( ) A modelagem de dados é uma etapa em que são criados modelos que representam a estrutura e as relações entre os dados. 3. ( ) O desenvolvimento de Dashboards e Relatórios é a última etapa do projeto de BI antes da implantação. 4. ( ) A adoção de uma abordagem iterativa e orientada a resultados frequentes é recomendada para projetos de BI. 5. ( ) O monitoramento contínuo é essencial para garantir que os dados estejam atualizados e que as análises continuem sendo relevantes para o negócio.",
+        "correct_answer": "A resposta correta é: V, V, F, V, V"
+    },
+    {
+        "number": "20",
+        "text": "Sobre as metodologias utilizadas no projeto de Business Intelligence (BI), analise as afirmações a seguir e indique se são verdadeiras (V) ou falsas (F): 1. ( ) A metodologia Inmon enfatiza a construção de data marts dimensionais independentes para cada área de negócio. 2. ( ) A Metodologia Kimball foi desenvolvida pela Microsoft e tem foco na colaboração entre equipes de BI e usuários finais. 3. ( ) A Metodologia Agile é uma abordagem ágil específica, que divide o projeto em ciclos curtos chamados \"sprints\". 4. ( ) A Metodologia TDSP é específica para projetos de análise de dados e mineração de dados. 5. ( ) A Metodologia Scrum é centrada no usuário e defende a construção de um data warehouse corporativo centralizado e integrado.",
+        "correct_answer": "A resposta correta é: F, F, V, V, F"
+    },
+    {
+        "number": "21",
+        "text": "Sobre as técnicas e melhores práticas de gerenciamento de projetos em Business Intelligence (BI), analise as afirmações a seguir e indique se são verdadeiras (V) ou falsas (F): 1. ( ) A definição de objetivos claros é fundamental para estabelecer requisitos claros e garantir que a equipe esteja alinhada com o que precisa ser alcançado no projeto. 2. ( ) A equipe de projetos de BI deve ser composta exclusivamente por especialistas em BI e analistas de dados. 3. ( ) A comunicação clara e transparente é importante para manter todas as partes interessadas informadas sobre o progresso do projeto. 4. ( ) A gestão de riscos é uma etapa pouco relevante em projetos de BI, pois as atividades são bem estruturadas e previsíveis. 5. ( ) A avaliação de resultados ao final do projeto permite que a equipe aprenda com a experiência e identifique oportunidades de melhorias para futuros projetos.",
+        "correct_answer": "A resposta correta é: V, F, V, F, V"
+    },
+    {
+        "number": "22",
+        "text": "Qual dos seguintes aspectos é considerado crítico para a segurança da informação em uma iniciativa de BI?",
+        "correct_answer": "A resposta correta é: Criptografia de dados sensíveis."
+    },
+    {
+        "number": "23",
+        "text": "Qual é a principal função da camada de \"Ferramentas de Análise\" na arquitetura de Business Intelligence (BI)?",
+        "correct_answer": "A resposta correta é: Permitir que os usuários interajam com os dados e obtenham informações relevantes."
+    },
+    {
+        "number": "24",
+        "text": "Qual é a função do processo de ETL (Extração, Transformação e Carga) na arquitetura de Business Intelligence (BI)?",
+        "correct_answer": "A resposta correta é: Integrar diferentes fontes de dados em um único repositório."
+    },
+    {
+        "number": "1",
+        "text": "Em qual das seguintes situações é mais apropriado usar o framework Kivy?",
+        "correct_answer": "A resposta correta é: Para criar uma aplicação que rode tanto em Android quanto em iOS com a mesma base de código."
+    },
+    {
+        "number": "2",
+        "text": "Qual método é frequentemente usado para fazer requisições GET em APIs usando a biblioteca Python 'requests'?",
+        "correct_answer": "A resposta correta é: requests.get()"
+    },
+    {
+        "number": "3",
+        "text": "O que é multithreading no contexto da programação em Python?",
+        "correct_answer": "A resposta correta é: A habilidade de executar múltiplos processos simultaneamente por uma unidade central de processamento (CPU) ou de um único núcleo em uma CPU de múltiplos núcleos."
+    },
+    {
+        "number": "4",
+        "text": "Em um contexto onde multithreading é usado em um aplicativo Kivy, qual das seguintes afirmações é verdadeira?",
+        "correct_answer": "A resposta correta é: A interface do usuário pode continuar responsiva enquanto outras operações estão ocorrendo em paralelo."
+    },
+    {
+        "number": "5",
+        "text": "Qual é a principal vantagem do Kivy em relação a outras bibliotecas de desenvolvimento de aplicativos móveis?",
+        "correct_answer": "A resposta correta é: Desenvolver aplicações móveis e desktop com a mesma base de código."
+    },
+    {
+        "number": "6",
+        "text": "Em Python, qual método é utilizado para adicionar um elemento ao final de uma lista?",
+        "correct_answer": "A resposta correta é: append()"
+    },
+    {
+        "number": "7",
+        "text": "Qual componente do Kivy permite que o usuário deslize por uma lista de itens quando há muitos entradas?",
+        "correct_answer": "A resposta correta é: ScrollView"
+    },
+    {
+        "number": "8",
+        "text": "Quando uma API retorna o erro 401, o que ela está indicando?",
+        "correct_answer": "A resposta correta é: Não autorizado."
+    },
+    {
+        "number": "9",
+        "text": "Qual é a finalidade do método bind() em Kivy?",
+        "correct_answer": "A resposta correta é: Associar um evento a um método de callback."
+    },
+    {
+        "number": "10",
+        "text": "No contexto de desenvolvimento móvel, o que é um \"gesture\"?",
+        "correct_answer": "A resposta correta é: Um movimento feito com o dedo ou stylus."
+    },
+    {
+        "number": "1",
+        "text": "O que é empreendedorismo?",
+        "correct_answer": "A resposta correta é: Uma mentalidade e uma abordagem para a vida."
+    },
+    {
+        "number": "2",
+        "text": "A identificação de oportunidades no empreendedorismo começa com a observação atenta do ambiente ao redor e a busca por ________ ou _________. Muitas vezes, as oportunidades surgem de desafios, obstáculos ou lacunas no mercado.",
+        "correct_answer": "A resposta correta é: problemas a serem resolvidos / necessidades não atendidas"
+    },
+    {
+        "number": "3",
+        "text": "Para identificar oportunidades emergentes antes da concorrência, é essencial que o empreendedor esteja constantemente analisando _________, _________ e _________. Isso pode revelar oportunidades valiosas.",
+        "correct_answer": "A resposta correta é: tendências do mercado / mudanças nas preferências dos consumidores / inovações tecnológicas"
+    },
+    {
+        "number": "4",
+        "text": "O processo de identificação de oportunidades no empreendedorismo envolve a análise de mercado para determinar o tamanho do público-alvo, a demanda pelo produto ou serviço e a concorrência existente. Além disso, é importante considerar ________, ________ e ________.",
+        "correct_answer": "A resposta correta é: tendências do mercado / estratégias de marketing / riscos envolvidos"
+    },
+    {
+        "number": "5",
+        "text": "A criatividade desempenha um papel fundamental na identificação de oportunidades no empreendedorismo. Os empreendedores frequentemente encontram oportunidades ao conectar ideias aparentemente desconectadas ou ao abordar problemas de maneira inovadora. A capacidade de pensar fora da caixa é um traço valioso. Qual termo preenche corretamente as lacunas a seguir? \"A criatividade desempenha um papel fundamental na identificação de oportunidades no empreendedorismo. Os empreendedores frequentemente encontram oportunidades ao conectar ideias __________ ou ao abordar problemas de maneira inovadora. A capacidade de pensar fora da caixa é um traço valioso.\"",
+        "correct_answer": "A resposta correta é: aparentemente desconectadas"
+    },
+    {
+        "number": "6",
+        "text": "Além disso, a rede de contatos pode desempenhar um papel importante na identificação de oportunidades no empreendedorismo. Conversar com outras pessoas do mesmo setor, participar de eventos de networking e colaborar com colegas em projetos podem revelar oportunidades que de outra forma passariam despercebidas. Qual dos termos preenche corretamente a lacuna a seguir? \"Além disso, a rede de contatos pode desempenhar um papel importante na identificação de oportunidades no empreendedorismo. Conversar com outras pessoas do mesmo setor, participar de eventos de networking e colaborar com colegas em projetos podem revelar oportunidades ______________ que de outra forma passariam despercebidas.\"",
+        "correct_answer": "A resposta correta é: relevantes"
+    },
+    {
+        "number": "7",
+        "text": "A análise de mercado ajuda os empreendedores a identificarem oportunidades não atendidas ou nichos de mercado que podem ser explorados. Isso envolve a pesquisa de tendências, demanda do consumidor e lacunas no mercado que podem ser preenchidas com produtos ou serviços inovadores. Qual dos termos preenche corretamente a lacuna a seguir? \"A análise de mercado ajuda os empreendedores a identificarem oportunidades não atendidas ou nichos de mercado que podem ser explorados. Isso envolve a pesquisa de tendências, demanda do consumidor e lacunas no mercado que podem ser preenchidas com produtos ou serviços inovadores que requerem ________________________.\"",
+        "correct_answer": "A resposta correta é: criatividade"
+    },
+    {
+        "number": "8",
+        "text": "Qual dos seguintes itens NÃO é um componente comum de um plano de negócios, conforme descrito no texto?",
+        "correct_answer": "A resposta correta é: Análise de preços dos equipamentos"
+    },
+    {
+        "number": "9",
+        "text": "Qual é a principal diferença entre objetivos e metas?",
+        "correct_answer": "A resposta correta é: Objetivos são mais abstratos, enquanto metas são concretas e mensuráveis."
+    },
+    {
+        "number": "10",
+        "text": "Qual das seguintes afirmações representa um exemplo de objetivo?",
+        "correct_answer": "A resposta correta é: Expandir a presença no mercado de forma estratégica."
+    },
+    {
+        "number": "11",
+        "text": "Qual das seguintes características é uma parte fundamental de uma meta SMART?",
+        "correct_answer": "A resposta correta é: Ser concreta e mensurável."
+    },
+    {
+        "number": "12",
+        "text": "Considere as seguintes afirmações sobre a implementação de um novo negócio com base no texto fornecido: I. Durante a implementação de um novo negócio, as estratégias são frequentemente deixadas de lado, uma vez que a ênfase está na alocação de recursos. II. A execução precisa e eficaz é fundamental durante a implementação de um novo negócio para alcançar seus objetivos. III. Nesta fase, o empreendedor geralmente desempenha um papel passivo na liderança e na gestão do negócio. IV. A transformação da visão em resultados concretos é um dos principais objetivos durante a implementação de um novo negócio. Assinale a alternativa correta:",
+        "correct_answer": "A resposta correta é: Apenas II e IV são verdadeiras."
+    },
+    {
+        "number": "13",
+        "text": "Responda quais afirmações são verdadeiras ou falsas sobre \"Gerenciamento de Projetos Ágeis\": I. O gerenciamento de projetos ágeis enfatiza a entrega incremental de resultados. II. O Scrum é uma metodologia ágil que divide o projeto em ciclos de trabalho chamados \"maratonas\". III. O gerenciamento de projetos ágeis não valoriza a flexibilidade nem a colaboração. IV. O Kanban é uma metodologia ágil que se concentra na gestão do fluxo de trabalho. V. O gerenciamento de projetos ágeis não requer comunicação constante com o cliente.",
+        "correct_answer": "A resposta correta é: Apenas I e IV são verdadeiras."
+    },
+    {
+        "number": "14",
+        "text": "Responda quais afirmações são verdadeiras ou falsas sobre \"Definições de Gerenciamento de Projetos\": I. O gerenciamento de projetos envolve a aplicação de conhecimentos, habilidades, ferramentas e técnicas para planejar, executar e controlar as atividades de um projeto. II. Projetos são esforços temporários com início e fim definidos. III. O cronograma do projeto detalha a sequência das atividades, mas não a data de conclusão do projeto. IV. O orçamento do projeto não é importante para executar as atividades do projeto. V. O gerenciamento de riscos envolve a identificação, avaliação e mitigação de riscos para aumentar sua probabilidade e impacto.",
+        "correct_answer": "A resposta correta é: Apenas I e II são verdadeiras."
+    },
+    {
+        "number": "15",
+        "text": "Qual é uma das funções fundamentais do empreendedorismo no desenvolvimento econômico?",
+        "correct_answer": "A resposta correta é: Promoção da autonomia e independência."
+    },
+    {
+        "number": "16",
+        "text": "Responda quais afirmações são verdadeiras ou falsas sobre \"Gerenciamento de Projetos Ágeis vs. Tradicional\": I. O gerenciamento de projetos ágeis se baseia em planejamento rígido e estruturas hierárquicas. II. O gerenciamento de projetos tradicional valoriza a flexibilidade e a resposta rápida às mudanças. III. O Scrum é uma das metodologias ágeis mais populares. IV. O Lean visa eliminar desperdícios e maximizar o valor entregue. V. A comunicação constante com o cliente é enfatizada no gerenciamento de projetos tradicional.",
+        "correct_answer": "A resposta correta é: Apenas III e IV são verdadeiras."
+    },
+    {
+        "number": "17",
+        "text": "Qual das seguintes características NÃO define um projeto de acordo com as \"Características de um Projeto\"?",
+        "correct_answer": "A resposta correta é: Recursos Ilimitados."
+    },
+    {
+        "number": "18",
+        "text": "Qual das seguintes atividades NÃO é considerada um projeto de acordo com as \"Atividades que Não São Projetos\"?",
+        "correct_answer": "A resposta correta é: Tarefas diárias ou operações rotineiras."
+    },
+    {
+        "number": "19",
+        "text": "Qual é a principal diferença entre um projeto e atividades que não são consideradas projetos, de acordo com a \"Definição de Projeto\"?",
+        "correct_answer": "A resposta correta é: A temporalidade, ou seja, o fato de ter um início e um fim definidos."
+    },
+    {
+        "number": "20",
+        "text": "Qual dos seguintes elementos não é uma definição ou conceito básico de empreendedorismo mencionado no texto?",
+        "correct_answer": "A resposta correta é: Conformidade com regulamentações."
+    },
+    {
+        "number": "21",
+        "text": "Quais são algumas das características-chave que definem os empreendedores, de acordo com o texto?",
+        "correct_answer": "A resposta correta é: Resiliência, determinação e paixão."
+    },
+    {
+        "number": "22",
+        "text": "Qual é um dos pilares fundamentais do ecossistema empreendedor mencionado no texto?",
+        "correct_answer": "A resposta correta é: Aceitação da falha como parte do processo de aprendizado."
+    },
+    {
+        "number": "23",
+        "text": "Qual é o papel das universidades no ecossistema empreendedor?",
+        "correct_answer": "A resposta correta é: Universidades fornecem conhecimento, tecnologia e talento humano que alimentam a inovação."
+    },
+    {
+        "number": "1",
+        "text": "Segundo informações indicadas no texto, o que é Edge Computing em IoT?",
+        "correct_answer": "A resposta correta é: Uma técnica de computação que coleta dados na borda da rede."
+    },
+    {
+        "number": "2",
+        "text": "Conforme as informações dispostas em texto, complete a frase de acordo com a lógica do conteúdo: O conceito de IoT se baseia em conectar o mundo físico com a internet usando _____________.",
+        "correct_answer": "A resposta correta é: Sensores e dispositivos de comunicação"
+    },
+    {
+        "number": "3",
+        "text": "Em residências automatizadas, o IoT pode ser utilizado para controlar a temperatura ambiente através de um ___________ que se ajusta às preferências do morador. De acordo com a frase, indique qual é a resposta correta:",
+        "correct_answer": "A resposta correta é: Termostato que se ajusta às preferências do morador"
+    },
+    {
+        "number": "4",
+        "text": "Leia os textos a seguir e identifique que informação pode ser considerada Verdadeira (V) ou Falsa(F): “O código Python apresentado busca encontrar uma porta COM disponível e estabelecer uma conexão serial com ela.” “A linguagem de programação Python é amplamente utilizada em IoT, pois é leve e de fácil compreensão.” “Verdadeiro ou Falso: O Arduino é uma plataforma Open Source que utiliza a linguagem de programação C++.”",
+        "correct_answer": "A resposta correta é: V,V,V"
+    },
+    {
+        "number": "5",
+        "text": "Em um sistema de Internet das Coisas (IoT), qual dos seguintes protocolos é mais comumente utilizado para comunicação entre dispositivos devido ao seu baixo consumo de energia e suporte a redes de baixa largura de banda?",
+        "correct_answer": "A resposta correta é: MQTT"
+    },
+    {
+        "number": "6",
+        "text": "O Tinkercad, uma plataforma que permite simulações de circuitos, projetos 3D e códigos em bloco, não necessita de dispositivos físicos para simular a montagem de circuitos, tornando possível testar circuitos que podem ser reproduzidos fisicamente, porém, para algumas aplicações como simulação de comunicação COM, ainda não são aplicáveis. Para a comunicação entre Python e Arduino no Windows, são necessárias as bibliotecas:",
+        "correct_answer": "A resposta correta é: pyfirmata e pyserial"
+    },
+    {
+        "number": "7",
+        "text": "Leia os textos a seguir e identifique que informação pode ser considerada Verdadeira (V) ou Falsa(F): “A arquitetura de redes em projetos IoT lida com o desenvolvimento, gerenciamento e configuração de sistemas de rede, desde a parte física até a parte lógica, buscando otimizar a segurança no tráfego e roteamento de dados.” “A arquitetura de sistemas de sensores IoT é caracterizada por ser dividida em camadas, sendo elas: Camada de Percepção, Camada de Rede e Camada de Aplicação.” “A computação em névoa (Fog Computing) visa tornar o armazenamento, os processamentos e a análise de informações mais veloz e ágil, melhorando o tempo de resposta entre a borda e a nuvem, reduzindo a quantidade de dados enviados para a nuvem e diminuindo a latência da rede.” De acordo com os textos expostos, indique qual é a alternativa correta:",
+        "correct_answer": "A resposta correta é: V,V,V"
+    },
+    {
+        "number": "8",
+        "text": "Complete a frase conforme as informações dispostas durante o curso: A arquitetura em Cloud Computing (Computação em Nuvem) permite a execução de funções que antes necessitavam de conexões físicas, agora em ambientes virtuais. Ela é essencial para a realização de processamento em tempo real de dados provenientes de sensores, sendo acessados pelos usuários por meio de interfaces de aplicação (API’s) via _________________.",
+        "correct_answer": "A resposta correta é: Dispositivos concentradores"
+    },
+    {
+        "number": "9",
+        "text": "Complete a frase conforme as informações dispostas durante o curso: Na camada de aplicação em sistemas IoT, os dados coletados por dispositivos da camada inferior podem ser transformados em informações úteis para futuras tomadas de decisões que serão aplicadas neste sistema. Nesta camada, geralmente encontramos __________________.",
+        "correct_answer": "A resposta correta é: Programas com interfaces de usuário"
+    },
+    {
+        "number": "10",
+        "text": "Edge computing, ou computação na borda, aproxima os dados ao objetivo final do processo em infraestrutura IoT, reduzindo a latência e economizando no desenvolvimento da infraestrutura, o que é fundamental para muitos casos de uso. Edge computing significa mover dados a partir dos dispositivos e sensores até a base de dados armazenando de forma segura e rápida, evitando a necessidade de __________________.",
+        "correct_answer": "A resposta correta é: Backhaul de rede"
+    },
+    {
+        "number": "11",
+        "text": "Qual é a principal vantagem do uso de Blockchain em sistemas IoT?",
+        "correct_answer": "A resposta correta é: Integridade e imutabilidade dos dados."
+    },
+    {
+        "number": "12",
+        "text": "Leia os textos a seguir e identifique que informação pode ser considerada Verdadeira (V) ou Falsa(F): “XML não é amplamente utilizado em comunicações e trocas.” “YAML é frequentemente usado em configurações e arquivos de configuração.” “JSON é um formato leve e fácil de ler amplamente utilizado na web para transmitir dados entre servidores e usuários, sendo especialmente adequado para APIs RESTful.” De acordo com os textos expostos, indique qual é a alternativa correta:",
+        "correct_answer": "A resposta correta é: F,V,V"
+    },
+    {
+        "number": "13",
+        "text": "Leia os textos a seguir e identifique que informação pode ser considerada Verdadeira (V) ou Falsa(F): “REST é um estilo arquitetônico que se baseia na ideia de que recursos identificados por URLs podem ser manipulados usando operações HTTP padrão, como GET, POST, PUT e DELETE.” “As APIs RESTful são amplamente exigidas na construção de serviços web devido à sua complexidade, escalabilidade e facilidade de uso.” “APIs Públicas e Abertas são disponibilizadas a usuários e programadores sem restrições, enquanto APIs Privadas ou Internas.” De acordo com os textos expostos, indique qual é a alternativa correta:",
+        "correct_answer": "A resposta correta é: V,F,V"
+    },
+    {
+        "number": "14",
+        "text": "O que é Blockchain?",
+        "correct_answer": "A resposta correta é: Uma tecnologia de registro descentralizado e seguro."
+    },
+    {
+        "number": "15",
+        "text": "Qual é a principal característica do modelo de serviço IaaS em IoT?",
+        "correct_answer": "A resposta correta é: Fornecer controle sobre a infraestrutura subjacente."
+    },
+    {
+        "number": "16",
+        "text": "Quando PaaS em IoT é mais apropriado?",
+        "correct_answer": "A resposta correta é: Quando desejamos criar aplicativos IoT personalizados sem se preocupar com a infraestrutura."
+    },
+    {
+        "number": "17",
+        "text": "Qual modelo de serviço em IoT é mais adequado para usuários finais que desejam acessar funcionalidades de IoT sem a necessidade de desenvolver seus próprios aplicativos?",
+        "correct_answer": "A resposta correta é: SaaS"
+    },
+    {
+        "number": "18",
+        "text": "Qual é o objetivo da criptoanálise em relação à segurança em IoT?",
+        "correct_answer": "A resposta correta é: Quebrar chaves de acesso e revelar dados criptografados"
+    },
+    {
+        "number": "19",
+        "text": "Quais são as credenciais consideradas como evidências durante o processo de autenticação em sistemas IoT?",
+        "correct_answer": "A resposta correta é: Senhas e PINs"
+    },
+    {
+        "number": "20",
+        "text": "Como o Edge Computing e o Blockchain podem ser usados juntos em um sistema IoT?",
+        "correct_answer": "A resposta correta é: O Edge Computing coleta e processa dados localmente em borda, enquanto o Blockchain garante a segurança e a integridade desses dados."
+    },
+    {
+        "number": "1",
+        "text": "Qual é a principal vantagem de utilizar o método de Early Stopping durante o treinamento de uma rede neural?",
+        "correct_answer": "A resposta correta é: Interromper o treinamento quando a métrica de validação para de melhorar."
+    },
+    {
+        "number": "2",
+        "text": "Qual abordagem de ensemble learning combina previsões de diferentes modelos utilizando um metamodelo para aprender a melhor combinação?",
+        "correct_answer": "A resposta correta é: Stacking"
+    },
+    {
+        "number": "3",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico de Treinamento de IA.\n\n( ) A regularização L1 é utilizada para eliminar variáveis irrelevantes, atribuindo peso zero a elas.\n( ) O Dropout aumenta a complexidade de redes neurais adicionando mais camadas ocultas ao modelo.\n( ) Redes neurais convolucionais (CNNs) são adequadas para processamento de séries temporais e previsão de sequências.\n( ) Em aprendizado supervisionado, o rótulo de saída é conhecido durante o treinamento do modelo.\n( ) A ReLU é uma função de ativação que retorna zero para valores negativos e o valor original para valores positivos.",
+        "correct_answer": "A resposta correta é: V F F V V"
+    },
+    {
+        "number": "4",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico de Treinamento de IA.\n\n( ) A regularização L2 aumenta a magnitude dos coeficientes dos pesos, ajudando a reduzir a variância do modelo.\n( ) O Gradient Descent é um algoritmo de otimização que busca minimizar a função de perda ajustando iterativamente os pesos da rede.\n( ) Overfitting ocorre quando o modelo tem um desempenho ruim tanto no conjunto de treinamento quanto no de teste.\n( ) A métrica de acurácia é sempre a melhor opção para avaliar modelos de classificação.\n( ) Redes recorrentes (RNNs) são ideais para processamento de dados sequenciais e séries temporais.",
+        "correct_answer": "A resposta correta é: F V F F V"
+    },
+    {
+        "number": "5",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico de Treinamento de IA.\n\n( ) Funções de perda como MSE e Cross-Entropy são utilizadas para medir o desempenho do modelo durante o treinamento.\n( ) A função de ativação Tanh transforma a saída de cada neurônio em um valor no intervalo entre -1 e 1.\n( ) Dropout é uma técnica de regularização que desativa aleatoriamente neurônios durante o treinamento para prevenir overfitting.\n( ) O Ensemble Learning utiliza apenas um único modelo para fazer previsões.\n( ) A técnica de Stacking combina previsões de diferentes modelos base usando um metamodelo.",
+        "correct_answer": "A resposta correta é: V V V F V"
+    },
+    {
+        "number": "6",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico de Treinamento de IA.\n\n( ) Redes neurais profundas possuem uma única camada densa com múltiplos neurônios interconectados.\n( ) O Early Stopping interrompe o treinamento do modelo quando a métrica de validação para de melhorar.\n( ) Funções de ativação não-linear, como ReLU e Sigmoid, permitem que redes neurais aprendam relações complexas nos dados.\n( ) O método de Dropout elimina permanentemente neurônios irrelevantes durante o treinamento.\n( ) A técnica de Cross-Validation é usada para estimar a capacidade de generalização de um modelo.",
+        "correct_answer": "A resposta correta é: F V V F V"
+    },
+    {
+        "number": "7",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico de Treinamento de IA.\n\n( ) A função de ativação ReLU é amplamente utilizada em redes neurais devido à sua capacidade de reduzir o problema de gradientes desaparecendo.\n( ) Regularização ajuda a aumentar a complexidade do modelo ao adicionar penalidades aos pesos.\n( ) Em aprendizado supervisionado, as variáveis de entrada são mapeadas diretamente para os rótulos de saída com a supervisão de um conjunto de treino.\n( ) Redes convolucionais (CNNs) são utilizadas principalmente para processamento de dados sequenciais e séries temporais.\n( ) O Batch Normalization é uma técnica utilizada para normalizar a saída das camadas durante o treinamento, acelerando a convergência.",
+        "correct_answer": "A resposta correta é: V F V F V"
+    },
+    {
+        "number": "8",
+        "text": "Marque se as afirmações a seguir são verdadeiras (V) ou falsas (F) com base no tópico de Treinamento de IA.\n\n( ) O algoritmo de K-means é uma técnica de clustering supervisionado que agrupa dados com base em suas similaridades.\n( ) Redes recorrentes (RNNs) possuem conexões de ciclo, o que lhes permite manter informações de etapas anteriores e aprender sequências temporais.\n( ) Em algoritmos de aprendizado supervisionado, os rótulos de saída são utilizados para guiar o processo de aprendizado do modelo.\n( ) O método de Bagging combina previsões de modelos fracos treinados independentemente para formar um modelo forte e mais robusto.\n( ) A métrica de Erro Quadrático Médio (MSE) é mais adequada para avaliar modelos de classificação do que para regressão.",
+        "correct_answer": "A resposta correta é: F V V V F"
+    },
+    {
+        "number": "9",
+        "text": "Qual é a principal diferença entre Machine Learning e Deep Learning?",
+        "correct_answer": "A resposta correta é: Machine Learning se concentra em algoritmos de aprendizado estatístico, enquanto Deep Learning utiliza redes neurais profundas para análise de dados."
+    },
+    {
+        "number": "10",
+        "text": "Qual dos seguintes frameworks é mais adequado para criar modelos de redes neurais complexos e realizar prototipagem rápida?",
+        "correct_answer": "A resposta correta é: PyTorch"
+    },
+    {
+        "number": "11",
+        "text": "Em qual cenário é mais apropriado usar a regularização L2 (Ridge Regression)?",
+        "correct_answer": "A resposta correta é: Quando todas as variáveis são relevantes e a magnitude dos pesos precisa ser ajustada."
+    },
+    {
+        "number": "12",
+        "text": "Qual métrica é mais adequada para avaliar modelos de classificação desbalanceados?",
+        "correct_answer": "A resposta correta é: F1-Score"
+    },
+    {
+        "number": "13",
+        "text": "Qual é a principal função do Dropout em redes neurais?",
+        "correct_answer": "A resposta correta é: Desativar aleatoriamente um percentual dos neurônios para evitar overfitting."
+    },
+    {
+        "number": "14",
+        "text": "Qual técnica de regularização combina L1 e L2 para equilibrar a eliminação de variáveis e o ajuste de magnitude dos pesos?",
+        "correct_answer": "A resposta correta é: Elastic Net"
+    },
+    {
+        "number": "15",
+        "text": "Qual dos seguintes métodos de ensemble learning treina sequencialmente modelos fracos, focando em corrigir os erros dos modelos anteriores?",
+        "correct_answer": "A resposta correta é: Boosting"
+    },
+    {
+        "number": "16",
+        "text": "Qual das seguintes opções NÃO é uma função de ativação comum em redes neurais?",
+        "correct_answer": "A resposta correta é: Exponential"
+    },
+    {
+        "number": "1",
+        "text": "Na análise de viabilidade, qual é o impacto da viabilidade técnica?",
+        "correct_answer": "A resposta correta é: Avalia se a equipe possui habilidades e recursos técnicos para implementar os requisitos."
+    },
+    {
+        "number": "2",
+        "text": "Qual é o papel da matriz de requisitos na análise de impacto?",
+        "correct_answer": "A resposta correta é: A matriz de requisitos ajuda a identificar áreas afetadas por mudanças nos requisitos e facilita o planejamento."
+    },
+    {
+        "number": "3",
+        "text": "Marque as afirmações a seguir como verdadeiras (V) ou falsas (F) com base no tópico sobre Análise de Requisitos e Tipos de Requisitos.\n\n1. ( ) Requisitos funcionais descrevem as funcionalidades e comportamentos específicos do sistema.\n2. ( ) Requisitos não funcionais estabelecem condições como desempenho, segurança e usabilidade.\n3. ( ) Requisitos de usuário e requisitos de sistema são sempre idênticos em nível de detalhe.\n4. ( ) A análise de requisitos envolve organização, priorização e negociação dos requisitos.",
+        "correct_answer": "A resposta correta é: V, V, F, V"
+    },
+    {
+        "number": "4",
+        "text": "Marque as afirmações a seguir como verdadeiras (V) ou falsas (F) com base no tópico sobre Técnicas de Elicitação de Requisitos.\n\n1. ( ) A técnica de observação permite que o analista entenda o contexto real de uso do sistema.\n2. ( ) Entrevistas e workshops são métodos ineficazes para coleta de requisitos em projetos complexos.\n3. ( ) Prototipagem é usada para validar requisitos e reduzir o risco de falhas de entendimento.\n4. ( ) Questionários são úteis para obter respostas rápidas de muitos stakeholders ao mesmo tempo.",
+        "correct_answer": "A resposta correta é: V, F, V, V"
+    },
+    {
+        "number": "5",
+        "text": "Marque as afirmações a seguir como verdadeiras (V) ou falsas (F) com base no tópico sobre Validação e Gerenciamento de Requisitos.\n\n1. ( ) A validação de requisitos é importante para confirmar que o sistema atende às necessidades dos stakeholders.\n2. ( ) Ferramentas como JIRA e Trello podem ajudar no gerenciamento de requisitos ao longo do projeto.\n3. ( ) A rastreabilidade de requisitos permite verificar se cada necessidade do usuário está coberta no projeto.\n4. ( ) O gerenciamento de mudanças nos requisitos não afeta o escopo final do sistema.",
+        "correct_answer": "A resposta correta é: V, V, V, F"
+    },
+    {
+        "number": "6",
+        "text": "Marque as afirmações a seguir como verdadeiras (V) ou falsas (F) com base no tópico sobre Análise de Viabilidade de Requisitos.\n\n1. ( ) A viabilidade técnica verifica se a equipe possui os recursos e habilidades para implementar o requisito.\n2. ( ) A análise de viabilidade considera apenas o custo de implementação dos requisitos.\n3. ( ) A viabilidade operacional avalia se os requisitos são compatíveis com o ambiente da organização.\n4. ( ) A análise de riscos faz parte da avaliação de viabilidade dos requisitos.",
+        "correct_answer": "A resposta correta é: V, F, V, V"
+    },
+    {
+        "number": "7",
+        "text": "Marque as afirmações a seguir como verdadeiras (V) ou falsas (F) com base no tópico sobre Priorização de Requisitos.\n\n1. ( ) O impacto no usuário final é um critério importante para priorizar requisitos.\n2. ( ) Requisitos de baixa prioridade são os primeiros a serem implementados.\n3. ( ) A complexidade técnica é considerada ao definir a ordem de prioridade dos requisitos.\n4. ( ) Urgência para o negócio é um critério que ajuda a definir quais requisitos são mais críticos.",
+        "correct_answer": "A resposta correta é: V, F, V, V"
+    },
+    {
+        "number": "8",
+        "text": "Marque as afirmações a seguir como verdadeiras (V) ou falsas (F) com base no tópico sobre Matriz de Requisitos e Análise de Impacto.\n\n1. ( ) A matriz de requisitos é usada para rastrear a implementação e as mudanças nos requisitos ao longo do projeto.\n2. ( ) A análise de impacto ajuda a identificar como mudanças em um requisito podem afetar outros componentes do sistema.\n3. ( ) A matriz de requisitos detalha o tempo estimado de implementação de cada requisito.\n4. ( ) Em uma matriz de requisitos, cada requisito é rastreado desde sua origem até sua implementação final.",
+        "correct_answer": "A resposta correta é: V, V, F, V"
+    },
+    {
+        "number": "9",
+        "text": "O que são requisitos funcionais e como eles diferem dos requisitos não funcionais em um sistema de software?",
+        "correct_answer": "A resposta correta é: Requisitos funcionais descrevem o que o sistema deve fazer, enquanto requisitos não funcionais especificam como o sistema deve operar."
+    },
+    {
+        "number": "10",
+        "text": "Qual das técnicas a seguir é mais indicada para coletar requisitos detalhados de stakeholders dispersos geograficamente?",
+        "correct_answer": "A resposta correta é: Questionários"
+    },
+    {
+        "number": "11",
+        "text": "Qual é o principal benefício da prototipagem na Engenharia de Requisitos?",
+        "correct_answer": "A resposta correta é: A prototipagem permite uma validação inicial dos requisitos, ajudando a ajustar o sistema antes do desenvolvimento completo."
+    },
+    {
+        "number": "12",
+        "text": "Qual é o objetivo da análise de viabilidade na engenharia de requisitos?",
+        "correct_answer": "A resposta correta é: Avaliar se os requisitos podem ser implementados de maneira eficaz e identificar possíveis limitações."
+    },
+    {
+        "number": "13",
+        "text": "Na priorização de requisitos, qual critério geralmente recebe maior prioridade?",
+        "correct_answer": "A resposta correta é: Requisitos essenciais para o funcionamento básico do sistema."
+    },
+    {
+        "number": "14",
+        "text": "Quais são algumas das principais técnicas de elicitação de requisitos?",
+        "correct_answer": "A resposta correta é: Entrevistas, workshops, questionários, observação e prototipagem."
+    },
+    {
+        "number": "15",
+        "text": "Qual é a diferença entre requisitos de usuário e requisitos de sistema?",
+        "correct_answer": "A resposta correta é: Requisitos de usuário são descrições de alto nível das necessidades, enquanto requisitos de sistema são detalhados e específicos sobre o que o sistema deve realizar."
+    },
+    {
+        "number": "16",
+        "text": "Quais são os principais desafios enfrentados na engenharia de requisitos?",
+        "correct_answer": "A resposta correta é: Elicitação de requisitos, comunicação com stakeholders, ambiguidade e incerteza, e gerenciamento de mudanças."
+    },
+    {
+        "number": "1",
+        "text": "Em quais dos eixos a seguir a organização da área da IA é mais produtiva?",
+        "correct_answer": "A resposta correta é: Representação de Conhecimento, Tomada de Decisão e Aprendizado de Máquina"
+    },
+    {
+        "number": "2",
+        "text": "Em relação à técnica de Canny disponibilizada entre outras na biblioteca OpenCv, a mesma diz respeito a que tipo de segmentação de imagens?",
+        "correct_answer": "A resposta correta é: Segmentação por Contornos"
+    },
+    {
+        "number": "3",
+        "text": "Assistentes virtuais como Alexa, Siri e Bixby, são exemplos de IA?",
+        "correct_answer": "A resposta correta é: Fraca"
+    },
+    {
+        "number": "4",
+        "text": "Quais são os principais tipos de algoritmos de ML?",
+        "correct_answer": "A resposta correta é: Aprendizado Supervisionado, Aprendizado Não Supervisionado e Aprendizado por Reforço"
+    },
+    {
+        "number": "5",
+        "text": "São características do Aprendizado Supervisionado:",
+        "correct_answer": "A resposta correta é: Os dados de treinamento serem rotulados; O modelo aprender a associar entradas às saídas; e O modelo ser avaliado com base em seu desempenho em dados de teste"
+    },
+    {
+        "number": "6",
+        "text": "Parte das etapas mais comuns no pré-processamento para ML envolvem?",
+        "correct_answer": "A resposta correta é: Coleta dos Dados, Limpeza dos Dados, Padronização e Normalização dos Dados"
+    },
+    {
+        "number": "7",
+        "text": "O que faz a técnica de Chunking?",
+        "correct_answer": "A resposta correta é: Agrupa tokens em unidades sintáticas maiores"
+    },
+    {
+        "number": "8",
+        "text": "Qual o objetivo da função word_tokenize da biblioteca nltk?",
+        "correct_answer": "A resposta correta é: Dividir um texto em palavras"
+    },
+    {
+        "number": "9",
+        "text": "São características das CNNs - Convolutional Neural Networks ou Redes Neurais Convolucionais:",
+        "correct_answer": "A resposta correta é: Receberem dados na entrada e gerarem resultados na saída, sem nenhum loop de feedback"
+    },
+    {
+        "number": "10",
+        "text": "Vários são os métodos para representar imagens na visão computacional, dentre os quais três são os mais comuns, aponte-os.",
+        "correct_answer": "A resposta correta é: Representação vetorial; Representação por histograma; e Representação matricial"
+    },
+    {
+        "number": "1",
+        "text": "Um usuário tem dificuldades em encontrar as informações que precisa dentro de um site e se perde na navegação. Qual profissional seria o mais indicado para endereçar a solução desse problema?",
+        "correct_answer": "A resposta correta é: Designer de Interface"
+    },
+    {
+        "number": "2",
+        "text": "O W3C - World Wide Web Consortium, é um consórcio internacional que desenvolveu as diretrizes WCAG para tornar a Web acessível para pessoas com diferentes tipos de deficiência. Quem criou o W3C?",
+        "correct_answer": "A resposta correta é: Tim Berners-Lee"
+    },
+    {
+        "number": "3",
+        "text": "Qual das seguintes tendências de UI permite uma experiência exploratória, permitindo ao usuário navegar por imagens panorâmicas, como no Google Maps?",
+        "correct_answer": "A resposta correta é: Zoomable-User-Interface (ZUI)"
+    },
+    {
+        "number": "4",
+        "text": "A Jornada do Usuário é essencial para entender como um usuário interage com um produto, desde o primeiro contato até o uso regular. Qual é o objetivo principal de mapear a jornada do usuário?",
+        "correct_answer": "A resposta correta é: Compreender as dores, necessidades e pontos de contato dos usuários com o produto"
+    },
+    {
+        "number": "5",
+        "text": "das heurísticas de Nielsen diz respeito ao reconhecimento em vez da memória. Como essa heurística se aplica em um sistema digital, considerando a experiência do usuário? Preencha as lacunas: \"A heurística do reconhecimento em vez da memória, aplicada em um sistema digital, significa que os usuários não devem ser obrigados a _________ informações do sistema, mas sim _________ a partir de sugestões e elementos visuais intuitivos.\"",
+        "correct_answer": "A resposta correta é: lembrar; reconhecer"
+    },
+    {
+        "number": "6",
+        "text": "Qual das seguintes frases diferencia corretamente UI (Interface do Usuário) de UX (Experiência do Usuário)? I. UI lida com a aparência e interação visual, enquanto UX abrange toda a experiência com o produto. II. UX é apenas a parte estética e UI trata da usabilidade. III. UI e UX são termos intercambiáveis, significando a mesma coisa. IV. UX trata de como o usuário se sente ao usar o produto, enquanto UI é sobre a disposição dos elementos visuais. V. UI lida com a estética, enquanto UX lida com a usabilidade de forma isolada.",
+        "correct_answer": "A resposta correta é: As frases IV e V são verdadeiras"
+    },
+    {
+        "number": "7",
+        "text": "O termo \"arquiteto da informação\" foi criado por um profissional que, baseado em sua própria vivência na organização espacial, desenvolveu uma maneira de facilitar a busca por informações. Quem foi o autor desse conceito?",
+        "correct_answer": "A resposta correta é: RS Wurman"
+    },
+    {
+        "number": "8",
+        "text": "Qual é o principal objetivo do método Card Sorting em UX Design?",
+        "correct_answer": "A resposta correta é: Entender como os usuários agrupam informações para melhorar a arquitetura da informação."
+    },
+    {
+        "number": "9",
+        "text": "Em relação ao design de interfaces com foco em acessibilidade, prevendo usuários com daltonismo, qual das afirmações está correta?",
+        "correct_answer": "A resposta correta é: O uso de apenas cores para transmitir informações críticas deve ser evitado."
+    },
+    {
+        "number": "10",
+        "text": "Ao trabalhar em um projeto de design colaborativo para uma grande equipe, você precisa escolher uma ferramenta que ofereça não apenas a edição simultânea, mas também um ambiente robusto para o gerenciamento de versões, feedback direto no design e integração com plataformas de desenvolvimento. Em qual das ferramentas de design UI mais utilizadas, encontramos todos estes atributos?",
+        "correct_answer": "A resposta correta é: Figma"
+    },
+    {
+        "number": "11",
+        "text": "Encantado com o design de um espremedor de laranja, Don Norman comprou uma unidade na cor dourada. Para a sua surpresa, havia na embalagem uma advertência para não espremer frutas no objeto, alegando que a acidez da laranja (para a qual foi produzido) poderia alterar sua cor. A ideia de que o design estava acima da funcionalidade ao ponto de o espremedor se fazer passar por objeto de arte gerou um certo fascínio em Norman. Com base na ideia de usabilidade e heurísticas de Nielsen, qual das alternativas é correta?.",
+        "correct_answer": "A resposta correta é: Esse case faz lembrar a heurística que fala da \"Correspondência entre o sistema e o mundo real\", que cobra dos objetos e funções do design que sejam intuitivos e úteis."
+    },
+    {
+        "number": "12",
+        "text": "O Design Centrado no Usuário - DCU ou User-Centered Design, requer uma abordagem cuidadosa em cada etapa do desenvolvimento de um produto. Uma das etapas mais importantes é a pesquisa de usuários. Qual dos seguintes cenários demonstra melhor a aplicação correta do DCU neste tipo de pesquisa?",
+        "correct_answer": "A resposta correta é: A equipe conduz entrevistas detalhadas com um grupo de usuários representativos antes do desenvolvimento do produto e essas informações são utilizadas para moldar o design desde o início."
+    },
+    {
+        "number": "1",
+        "text": "Com relação à estrutura de decisão “if-else”, o que acontece se a condição do “if” for avaliada como falsa e não houver “else”? Identifique entre as alternativas abaixo a que possui a saída correta segundo o enunciado.",
+        "correct_answer": "A resposta correta é: Nada acontece, o programa continua executando."
+    },
+    {
+        "number": "2",
+        "text": "Qual é o tipo de dado em Python usado para representar números com casas decimais?",
+        "correct_answer": "A resposta correta é: float"
+    },
+    {
+        "number": "3",
+        "text": "O que é o escopo de uma variável definida dentro de uma função em Python?",
+        "correct_answer": "A resposta correta é: O escopo é local e só pode ser acessado dentro da função."
+    },
+    {
+        "number": "4",
+        "text": "O que é uma função recursiva em Python?",
+        "correct_answer": "A resposta correta é: Uma função que chama a si mesma diretamente ou indiretamente para resolver um problema."
+    },
+    {
+        "number": "5",
+        "text": "Qual é a finalidade do operador return em uma função Python?",
+        "correct_answer": "A resposta correta é: O operador return é usado para retornar um valor da função e encerrar sua execução."
+    },
+    {
+        "number": "6",
+        "text": "Qual das seguintes estruturas de controle de repetição em Python permite que você execute um bloco de código enquanto uma condição for verdadeira?",
+        "correct_answer": "A resposta correta é: while"
+    },
+    {
+        "number": "7",
+        "text": "O que é uma estrutura de controle de repetição \"infinita\" em Python e qual é a função da instrução break em tal estrutura?",
+        "correct_answer": "A resposta correta é: Uma estrutura de controle de repetição infinita é aquela que sempre executa até que uma condição seja satisfeita, e a instrução break é usada para sair dela."
+    },
+    {
+        "number": "8",
+        "text": "O que é a \"mutabilidade\" de um tipo de dado em Python?",
+        "correct_answer": "A resposta correta é: A capacidade de alterar o valor de uma variável."
+    },
+    {
+        "number": "9",
+        "text": "Para que serve um dicionário em Python?",
+        "correct_answer": "A resposta correta é: Armazenar elementos em pares chave-valor, permitindo acesso rápido aos valores por meio das chaves."
+    },
+    {
+        "number": "10",
+        "text": "Qual é a diferença principal entre uma lista e uma tupla em Python?",
+        "correct_answer": "A resposta correta é: Listas são ordenadas e mutáveis, enquanto tuplas são ordenadas e imutáveis."
+    },
+    {
+        "number": "11",
+        "text": "Qual é a diferença entre uma função com e sem retorno em Python?",
+        "correct_answer": "A resposta correta é: Funções com retorno devolvem um valor específico, enquanto funções sem retorno não têm um valor de retorno explícito."
+    },
+    {
+        "number": "12",
+        "text": "Suponha que você precise criar uma hierarquia de classes em Python para modelar veículos. Qual conceito de orientação a objetos você usaria para representar a relação entre uma classe mais genérica, como \"Veículo\", e classes mais específicas, como \"Carro\" e \"Moto\"?",
+        "correct_answer": "A resposta correta é: Herança"
+    },
+    {
+        "number": "13",
+        "text": "Qual é a diferença entre uma classe e um objeto em Python?",
+        "correct_answer": "A resposta correta é: Uma classe é um plano ou modelo para criar objetos, enquanto um objeto é uma instância específica dessa classe."
+    },
+    {
+        "number": "14",
+        "text": "Qual função ou método é usado para escrever dados em um arquivo em Python?",
+        "correct_answer": "A resposta correta é: write()"
+    },
+    {
+        "number": "15",
+        "text": "Qual é a diferença entre os modos 'a' e 'w' ao trabalhar com arquivos em Python?",
+        "correct_answer": "A resposta correta é: O modo 'a' é usado para abrir um arquivo apenas se ele já existir, enquanto o modo 'w' cria um novo arquivo, excluindo qualquer conteúdo existente."
+    },
+    {
+        "number": "16",
+        "text": "Qual é o tipo de dado em Python que pode conter uma coleção ordenada de elementos, onde cada elemento pode ser de um tipo diferente?",
+        "correct_answer": "A resposta correta é: list"
+    },
+    {
+        "number": "1",
+        "text": "Os marcos da história da computação são os pilares que sustentam nossa era digital. Eles representam o esforço contínuo da humanidade para dominar a tecnologia e a informação, capacitando-nos a alcançar realizações notáveis em áreas como ciência, medicina, negócios e muito mais. A compreensão desses marcos não apenas enriquece nosso conhecimento sobre a história da tecnologia, mas também nos inspira a continuar buscando inovações que moldarão o futuro. Ainda dentro deste contexto organize os marcos da história da computação em ordem cronológica, escolhendo a alternativa correta:",
+        "correct_answer": "A resposta correta é: Ábaco, relés, Eniac, Transistor e Microprocessador"
+    },
+    {
+        "number": "2",
+        "text": "A Arquitetura de Von Neumann é um modelo de computador que foi proposto por John von Neumann e é base para os computadores modernos. ainda sobre esta arquitetura qual das seguintes afirmações descreve corretamente os princípios da Arquitetura de Von Neumann?",
+        "correct_answer": "A resposta correta é: A Arquitetura de Von Neumann é um modelo de computador que dados e comandos coexistem na mesma memória que permite um acesso por vez"
+    },
+    {
+        "number": "3",
+        "text": "Uma das funções principais de um sistema operacional é controlar todos os dispositivos de E/S (entrada/saída) de um computador. Sobre as formas como a E/S pode ser feita do ponto de vista dos sistemas operacionais, considere as seguintes afirmativas. I -Na E/S programada, a CPU principal lê ou escreve cada byte ou palavra e espera em um laço até que ela possa obter ou enviar o próximo dado. II -Na E/S orientada a interrupção, a CPU inicia uma transferência de E/S para um caractere ou palavra e segue para outra atividade até que uma interrupção sinalize a conclusão daquela E/S. III -Na E/S que usa DMA, um chip separado gerencia a transferência completa de um bloco de dados, ocorrendo uma interrupção somente quando o bloco for totalmente transferido. Está(ão) correta(s) a(s) afirmativa(s):",
+        "correct_answer": "A resposta correta é: I, II e III."
+    },
+    {
+        "number": "4",
+        "text": "As gerações de computadores representam etapas cruciais na evolução tecnológica que moldou a nossa sociedade digital. Essas gerações não apenas marcaram avanços na capacidade de processamento, mas também transformaram a maneira como interagimos com a tecnologia. Em resumo, as gerações de computadores são marcos na história da tecnologia, refletindo uma constante busca por eficiência, capacidade e acessibilidade. Cada geração construiu sobre a anterior, e essa progressão é uma lembrança constante de que a inovação é o motor que impulsiona nossa jornada tecnológica contínua. Ainda dentro deste contexto leia a questão a seguir e escolha a alternativa que a responde corretamente: Quais as gerações de computadores, em ordem cronológica, e suas características distintas?",
+        "correct_answer": "A resposta correta é: Primeira Geração - Utilização de válvulas; Segunda Geração - Uso de transistores; Terceira Geração - Integração de circuitos integrados; Quarta Geração - Uso de microprocessadores."
+    },
+    {
+        "number": "5",
+        "text": "A notação posicional é um dos conceitos matemáticos mais poderosos e práticos já desenvolvidos. Ela nos permite realizar cálculos complexos, representar números de forma compacta e é a base para muitas aplicações tecnológicas, desde a aritmética cotidiana até a programação de computadores. A notação posicional é um sistema matemático fundamental que nos permite representar números de maneira eficiente e versátil. Nesse sistema, o valor de um dígito depende tanto de sua posição quanto de seu próprio valor numérico. Esse sistema facilita cálculos e representações numéricas, permitindo-nos manipular números de forma simples. Ainda dentro deste contexto leia a questão a seguir e escolha a alternativa que a responde corretamente: Qual das seguintes afirmações descreve corretamente a relação entre as diferentes bases de notação posicional (base 10, base 2, base 8 e base 16) e suas respectivas características?s:",
+        "correct_answer": "A resposta correta é: A base 10 é comumente usada em cálculos humanos, a base 2 é fundamental em sistemas de computação, a base 8 é empregada em sistemas de telecomunicações e a base 16 é utilizada em programação e representação de endereços de memória."
+    },
+    {
+        "number": "6",
+        "text": "A combinação do sistema binário com a lógica booleana é a base da eletrônica digital e da programação de computadores. As portas lógicas, que implementam operações booleanas, permitem que os computadores realizem cálculos complexos e tomem decisões com base nas informações processadas. Essa integração é a força motriz por trás da tecnologia moderna, desde a funcionalidade dos processadores até os algoritmos de software mais avançados. O sistema binário e a lógica booleana são os fundamentos que possibilitam o funcionamento dos dispositivos digitais que fazem parte de nossas vidas cotidianas. A compreensão desses conceitos é crucial para entender a arquitetura dos computadores e a base da programação, permitindo-nos explorar as fronteiras cada vez mais amplas da tecnologia. Ainda dentro deste contexto leia a questão a seguir e escolha a alternativa que a responde corretamente: Qual a relação entre o sistema binário e a lógica booleana?",
+        "correct_answer": "A resposta correta é: O sistema binário é um sistema de numeração que utiliza os dígitos \"0\" e \"1\" para representar valores, e a lógica booleana é um ramo da matemática que lida com operações lógicas como AND, OR e NOT, fundamentais para a eletrônica digital e programação."
+    },
+    {
+        "number": "7",
+        "text": "Em 1854, o matemático inglês George Boole apresentou um sistema matemático de análise lógica conhecido como álgebra de Boole. Sistemas digitais são formados por circuitos lógicos denominados de portas lógicas que, utilizados de forma conveniente, podem implementar todas as expressões geradas pela álgebra de Boole. Existem três portas básicas (E, OU e NÃO) que podem ser conectadas de várias maneiras, formando sistemas que vão de simples relógios digitais aos computadores de grande porte. Sobre estas três portas (operador ou função booleana) avalie as asserções abaixo e a relação proposta entre elas:   I.     O operador booleano (função) OU (OR) é aquela que assume valor 1 quando uma ou mais variáveis de entrada forem iguais a 1, e assume 0 se, e somente se, todas as variáveis de entrada forem iguais a zero. Porque II.     Os operadores (funções) booleanas correspondem a operadores matemáticos clássicos e o operador booleano OU (OR) corresponde ao operador X (multiplicação) e na multiplicação qualquer número multiplicado por 0 (zero) é igual a 0 (zero).",
+        "correct_answer": "A resposta correta é: A asserção I é uma proposição verdadeira, mas a asserção II é uma proposição falsa."
+    },
+    {
+        "number": "8",
+        "text": "Os sistemas de numeração foram criados pelo homem com o objetivo de quantificar as grandezas relacionadas às suas observações. Tais sistemas foram desenvolvidos por meio de símbolos, caracteres e do estabelecimento de regras para a sua representação gráfica. O conjunto desses símbolos ou caracteres chamamos de base ou raiz do sistema, \". Ainda sobre Sistemas numeração é CORRETO afirmar que: I.       O sistema decimal, que representa números em base 10, é um sistema de numeração em que todas as quantidades são representadas utilizando o conjunto de símbolos S = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }. II.       O sistema binário, que representa números em base 2, é um sistema de numeração em que todas as quantidades são representadas utilizando o conjunto de símbolos S = { 0, 1 }. III.       O sistema octal, que representa números em base 8, é um sistema de numeração em que todas as quantidades são representadas utilizando o conjunto de símbolos S = { 1, 2, 3, 4, 5, 6, 7, 8 }. IV.       O sistema hexadecimal, que representa números em base 16, é um sistema de numeração em que todas as quantidades são representadas utilizando o conjunto de símbolos S = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F }.",
+        "correct_answer": "A resposta correta é: Apenas as assertivas I, II e IV estão corretas."
+    },
+    {
+        "number": "9",
+        "text": "Memória é o dispositivo físico capaz de armazenar algum tipo de conteúdo para uso no computador. Existe uma variedade de tecnologias usadas para implementar os sistemas de memória. Conforme a tecnologia estes tipos de memorias são organizados em uma pirâmide denominada hierarquia de memória. Ainda dentro do contexto sobre memoria leia avalie e assinale a opção correta.",
+        "correct_answer": "A resposta correta é: A memória física, ou seja, a memória RAM é a memória “real” do sistema implementada com CIs. Sendo que a memória física possui áreas reservadas e endereço físico"
+    },
+    {
+        "number": "10",
+        "text": "A Organização e Hierarquia de Memória é um conceito fundamental na arquitetura de computadores, determinando como os dados são armazenados e acessados em diferentes níveis de velocidade e capacidade. Essa hierarquia busca otimizar o desempenho do sistema, equilibrando a velocidade de acesso e a capacidade de armazenamento. Essa abordagem permite um equilíbrio entre velocidade e capacidade, maximizando a eficiência do sistema. Ainda dentro deste contexto leia a questão a seguir e escolha a alternativa que a responde corretamente: Qual das seguintes alternativas descreve corretamente os diferentes níveis de memória na hierarquia de armazenamento de um computador, do mais rápido e próximo ao processador ao mais lento e distante?",
+        "correct_answer": "A resposta correta é: Memória Cache, Memória RAM, Memória de Massa."
+    },
+    {
+        "number": "11",
+        "text": "Os componentes fundamentais da Arquitetura Básica de Computadores são os blocos essenciais que trabalham em conjunto para dar vida e funcionalidade a qualquer sistema computacional. Eles fornecem a base para a operação, o processamento e a interação com informações. Esses componentes trabalham de maneira orquestrada para realizar operações complexas e variadas, desde cálculos matemáticos até tarefas de gerenciamento de dados. A compreensão de como esses blocos se interconectam e funcionam em conjunto é crucial para entender o funcionamento interno dos sistemas de computadores e a base da tecnologia da informação moderna. Ainda dentro deste contexto leia a questão a seguir e escolha a alternativa que a responde corretamente a um conjunto de blocos de arquitetura de computadores:",
+        "correct_answer": "A resposta correta é: Processadores, memória, barramentos, dispositivos de entrada/saída e armazenamento secundário."
+    },
+    {
+        "number": "1",
+        "text": "Qual das seguintes afirmações sobre a sintaxe básica de Python está correta?",
+        "correct_answer": "A resposta correta é: A indentação é usada em Python para definir a estrutura e os blocos de código."
+    },
+    {
+        "number": "2",
+        "text": "Qual é a diferença entre parâmetros e argumentos em Python?",
+        "correct_answer": "A resposta correta é: Parâmetros os são nomes das variáveis dentro da função, enquanto argumentos são valores passados para a função."
+    },
+    {
+        "number": "3",
+        "text": "O que faz a instrução return em uma função Python?",
+        "correct_answer": "A resposta correta é: Retorna um valor da função."
+    },
+    {
+        "number": "4",
+        "text": "O que são módulos em Python?",
+        "correct_answer": "A resposta correta é: Arquivos que contêm código Python reutilizável."
+    },
+    {
+        "number": "5",
+        "text": "Qual é a principal diferença entre um módulo e um pacote em Python?",
+        "correct_answer": "A resposta correta é: Módulos são arquivos únicos, enquanto pacotes são diretórios que contêm módulos relacionados."
+    },
+    {
+        "number": "6",
+        "text": "O que é uma exceção em Python?",
+        "correct_answer": "A resposta correta é: Uma condição anormal ou erro durante a execução do programa."
+    },
+    {
+        "number": "7",
+        "text": "Como você captura e lida com uma exceção em Python usando a estrutura try...except?",
+        "correct_answer": "A resposta correta é: Coloque o código propenso a erros no bloco try e especifique como lidar com a exceção no bloco except."
+    },
+    {
+        "number": "8",
+        "text": "Qual função em Python é usada para abrir um arquivo em modo de leitura?",
+        "correct_answer": "A resposta correta é: open()"
+    },
+    {
+        "number": "9",
+        "text": "Como você fecha um arquivo corretamente após ler ou escrever dados em Python?",
+        "correct_answer": "A resposta correta é: Use a função close() no arquivo."
+    },
+    {
+        "number": "10",
+        "text": "Qual é a principal diferença entre herança simples e múltipla em Python?",
+        "correct_answer": "A resposta correta é: Na herança simples, uma classe pode herdar de apenas uma classe base, enquanto na herança múltipla, uma classe pode herdar de várias classes base."
+    },
+    {
+        "number": "11",
+        "text": "O que é polimorfismo na programação orientada a objetos?",
+        "correct_answer": "A resposta correta é: A capacidade de um objeto se comportar de maneiras diferentes com base em seu tipo ou classe."
+    },
+    {
+        "number": "12",
+        "text": "Qual é a palavra-chave usada para definir uma função em Python?",
+        "correct_answer": "A resposta correta é: def"
+    },
+    {
+        "number": "13",
+        "text": "Qual é a função da instrução if em Python?",
+        "correct_answer": "A resposta correta é: Executar um bloco de código condicionalmente com base em uma expressão booleana."
+    },
+    {
+        "number": "14",
+        "text": "Qual é a função da instrução for em Python?",
+        "correct_answer": "A resposta correta é: Realizar uma iteração sobre uma sequência."
+    },
+    {
+        "number": "15",
+        "text": "Qual estrutura de dados em Python é uma coleção ordenada e mutável de elementos, permitindo elementos duplicados?",
+        "correct_answer": "A resposta correta é: Lista"
+    },
+    {
+        "number": "16",
+        "text": "Qual estrutura de dados em Python é imutável, ou seja, não pode ser modificada após a criação?",
+        "correct_answer": "A resposta correta é: Tupla"
+    },
+    {
+        "number": "17",
+        "text": "Qual estrutura de dados em Python segue o princípio \"último a entrar, primeiro a sair\" (LIFO - Last In, First Out)?",
+        "correct_answer": "A resposta correta é: Pilha"
+    },
+    {
+        "number": "18",
+        "text": "Qual estrutura de loop é mais apropriada quando você sabe antecipadamente quantas vezes deseja executar o código?",
+        "correct_answer": "A resposta correta é: Loop for"
+    },
+    {
+        "number": "19",
+        "text": "Qual é o objetivo da instrução break em Python quando usada em um loop?",
+        "correct_answer": "A resposta correta é: Encerrar o loop imediatamente, independentemente da condição."
+    }
+]
